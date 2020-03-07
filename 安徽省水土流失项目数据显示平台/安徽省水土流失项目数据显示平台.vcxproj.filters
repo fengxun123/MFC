@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="安徽省水土流失项目数据显示平台.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="安徽省水土流失项目数据显示平台Doc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="安徽省水土流失项目数据显示平台View.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TabSheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureDlg11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureDlg21.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureDlg31.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureDlg41.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgJieyitu1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTuzongbiao10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTufenbiao11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTufenbiao12.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTufenbiao13.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTudiliyong.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTudiliyong1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgJieyitu2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTuzongbiao20.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTufenbiao21.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTufenbiao22.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTufenbiao23.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTudiliyong2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DLgJieyitu3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTuzongbiao30.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTufenbiao31.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTufenbiao32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTudiliyong3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgJieyitu4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTuzongbiao40.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTufenbiao41.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTufenbiao42.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTufenbiao43.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhibeifugai1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhibeifugai2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhibeifugai3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhibeifugai4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhijieyitu1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhijieyitu2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhijieyitu3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhijieyitu4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhizongbiao10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhizongbiao20.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhizongbiao30.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhizongbiao40.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhifenbiao11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhifenbiao12.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhifenbiao13.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhifenbiao21.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhifenbiao22.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhifenbiao23.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhifenbiao31.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhifenbiao32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhifenbiao41.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhifenbiao42.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhifenbiao43.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuituliushi1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuituliushi2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuituliushi3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuituliushi4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuijieyitu1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuijieyitu2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuijieyitu3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuijieyitu4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuizongbiao10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuiZongbiao20.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuizongbiao30.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuizongbiao40.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuifenbiao11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuifenbiao12.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuifenbiao13.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuifenbiao21.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuifenbiao22.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuifenbiao23.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuifenbiao31.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuifenbiao32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuifenbiao41.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuifenbiao42.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShuifenbiao43.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="安徽省水土流失项目数据显示平台.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="安徽省水土流失项目数据显示平台Doc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="安徽省水土流失项目数据显示平台View.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TabSheet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureDlg11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureDlg21.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureDlg31.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureDlg41.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgJieyitu1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTuzongbiao10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTufenbiao11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTufenbiao12.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTufenbiao13.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTudiliyong.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTudiliyong1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgJieyitu2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTuzongbiao20.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTufenbiao21.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTufenbiao22.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTufenbiao23.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTudiliyong2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DLgJieyitu3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTuzongbiao30.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTufenbiao31.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTufenbiao32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTudiliyong3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgJieyitu4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTuzongbiao40.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTufenbiao41.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTufenbiao42.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTufenbiao43.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhibeifugai1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhibeifugai2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhibeifugai3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhibeifugai4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhijieyitu1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhijieyitu2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhijieyitu3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhijieyitu4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhizongbiao10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhizongbiao20.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhizongbiao30.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhizongbiao40.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhifenbiao11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhifenbiao12.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhifenbiao13.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhifenbiao21.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhifenbiao22.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhifenbiao23.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhifenbiao31.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhifenbiao32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhifenbiao41.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhifenbiao42.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhifenbiao43.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuituliushi1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuituliushi2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuituliushi3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuituliushi4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuijieyitu1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuijieyitu2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuijieyitu3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuijieyitu4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuizongbiao10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuiZongbiao20.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuizongbiao30.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuizongbiao40.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuifenbiao11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuifenbiao12.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuifenbiao13.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuifenbiao21.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuifenbiao22.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuifenbiao23.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuifenbiao31.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuifenbiao32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuifenbiao41.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuifenbiao42.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShuifenbiao43.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="安徽省水土流失项目数据显示平台.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\安徽省水土流失项目数据显示平台Doc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\安徽省水土流失项目数据显示平台.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\3.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\4.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\5.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\6.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\7.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\8.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

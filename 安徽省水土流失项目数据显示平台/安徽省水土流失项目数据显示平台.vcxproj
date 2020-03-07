@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F7C6172F-B7B3-4521-AE4D-0F83C56022C1}</ProjectGuid>
+    <RootNamespace>安徽省水土流失项目数据显示平台</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>F:\MySQL\MySQL Server 5.5\include;$(IncludePath)</IncludePath>
+    <ReferencePath>F:\MySQL\MySQL Server 5.5\lib;$(ReferencePath)</ReferencePath>
+    <LibraryPath>F:\MySQL\MySQL Server 5.5\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NO_WARN_MBCS_MFC_DEPRECATION。;WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>libmysql32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DisplayView.h" />
+    <ClInclude Include="DlgJieyitu1.h" />
+    <ClInclude Include="DlgJieyitu2.h" />
+    <ClInclude Include="DLgJieyitu3.h" />
+    <ClInclude Include="DlgJieyitu4.h" />
+    <ClInclude Include="DlgShuifenbiao11.h" />
+    <ClInclude Include="DlgShuifenbiao12.h" />
+    <ClInclude Include="DlgShuifenbiao13.h" />
+    <ClInclude Include="DlgShuifenbiao21.h" />
+    <ClInclude Include="DlgShuifenbiao22.h" />
+    <ClInclude Include="DlgShuifenbiao23.h" />
+    <ClInclude Include="DlgShuifenbiao31.h" />
+    <ClInclude Include="DlgShuifenbiao32.h" />
+    <ClInclude Include="DlgShuifenbiao41.h" />
+    <ClInclude Include="DlgShuifenbiao42.h" />
+    <ClInclude Include="DlgShuifenbiao43.h" />
+    <ClInclude Include="DlgShuijieyitu1.h" />
+    <ClInclude Include="DlgShuijieyitu2.h" />
+    <ClInclude Include="DlgShuijieyitu3.h" />
+    <ClInclude Include="DlgShuijieyitu4.h" />
+    <ClInclude Include="DlgShuituliushi1.h" />
+    <ClInclude Include="DlgShuituliushi2.h" />
+    <ClInclude Include="DlgShuituliushi3.h" />
+    <ClInclude Include="DlgShuituliushi4.h" />
+    <ClInclude Include="DlgShuizongbiao10.h" />
+    <ClInclude Include="DlgShuiZongbiao20.h" />
+    <ClInclude Include="DlgShuizongbiao30.h" />
+    <ClInclude Include="DlgShuizongbiao40.h" />
+    <ClInclude Include="DlgTudiliyong.h" />
+    <ClInclude Include="DlgTudiliyong1.h" />
+    <ClInclude Include="DlgTudiliyong2.h" />
+    <ClInclude Include="DlgTudiliyong3.h" />
+    <ClInclude Include="DlgTufenbiao11.h" />
+    <ClInclude Include="DlgTufenbiao12.h" />
+    <ClInclude Include="DlgTufenbiao13.h" />
+    <ClInclude Include="DlgTufenbiao21.h" />
+    <ClInclude Include="DlgTufenbiao22.h" />
+    <ClInclude Include="DlgTufenbiao23.h" />
+    <ClInclude Include="DlgTufenbiao31.h" />
+    <ClInclude Include="DlgTufenbiao32.h" />
+    <ClInclude Include="DlgTufenbiao41.h" />
+    <ClInclude Include="DlgTufenbiao42.h" />
+    <ClInclude Include="DlgTufenbiao43.h" />
+    <ClInclude Include="DlgTuzongbiao10.h" />
+    <ClInclude Include="DlgTuzongbiao20.h" />
+    <ClInclude Include="DlgTuzongbiao30.h" />
+    <ClInclude Include="DlgTuzongbiao40.h" />
+    <ClInclude Include="DlgZhibeifugai1.h" />
+    <ClInclude Include="DlgZhibeifugai2.h" />
+    <ClInclude Include="DlgZhibeifugai3.h" />
+    <ClInclude Include="DlgZhibeifugai4.h" />
+    <ClInclude Include="DlgZhifenbiao11.h" />
+    <ClInclude Include="DlgZhifenbiao12.h" />
+    <ClInclude Include="DlgZhifenbiao13.h" />
+    <ClInclude Include="DlgZhifenbiao21.h" />
+    <ClInclude Include="DlgZhifenbiao22.h" />
+    <ClInclude Include="DlgZhifenbiao23.h" />
+    <ClInclude Include="DlgZhifenbiao31.h" />
+    <ClInclude Include="DlgZhifenbiao32.h" />
+    <ClInclude Include="DlgZhifenbiao41.h" />
+    <ClInclude Include="DlgZhifenbiao42.h" />
+    <ClInclude Include="DlgZhifenbiao43.h" />
+    <ClInclude Include="DlgZhijieyitu1.h" />
+    <ClInclude Include="DlgZhijieyitu2.h" />
+    <ClInclude Include="DlgZhijieyitu3.h" />
+    <ClInclude Include="DlgZhijieyitu4.h" />
+    <ClInclude Include="DlgZhizongbiao10.h" />
+    <ClInclude Include="DlgZhizongbiao20.h" />
+    <ClInclude Include="DlgZhizongbiao30.h" />
+    <ClInclude Include="DlgZhizongbiao40.h" />
+    <ClInclude Include="Login.h" />
+    <ClInclude Include="LoginDlg.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="PictureDlg11.h" />
+    <ClInclude Include="PictureDlg21.h" />
+    <ClInclude Include="PictureDlg31.h" />
+    <ClInclude Include="PictureDlg41.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SelectView.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TabSheet.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UserDlg.h" />
+    <ClInclude Include="安徽省水土流失项目数据显示平台.h" />
+    <ClInclude Include="安徽省水土流失项目数据显示平台Doc.h" />
+    <ClInclude Include="安徽省水土流失项目数据显示平台View.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DisplayView.cpp" />
+    <ClCompile Include="DlgJieyitu1.cpp" />
+    <ClCompile Include="DlgJieyitu2.cpp" />
+    <ClCompile Include="DLgJieyitu3.cpp" />
+    <ClCompile Include="DlgJieyitu4.cpp" />
+    <ClCompile Include="DlgShuifenbiao11.cpp" />
+    <ClCompile Include="DlgShuifenbiao12.cpp" />
+    <ClCompile Include="DlgShuifenbiao13.cpp" />
+    <ClCompile Include="DlgShuifenbiao21.cpp" />
+    <ClCompile Include="DlgShuifenbiao22.cpp" />
+    <ClCompile Include="DlgShuifenbiao23.cpp" />
+    <ClCompile Include="DlgShuifenbiao31.cpp" />
+    <ClCompile Include="DlgShuifenbiao32.cpp" />
+    <ClCompile Include="DlgShuifenbiao41.cpp" />
+    <ClCompile Include="DlgShuifenbiao42.cpp" />
+    <ClCompile Include="DlgShuifenbiao43.cpp" />
+    <ClCompile Include="DlgShuijieyitu1.cpp" />
+    <ClCompile Include="DlgShuijieyitu2.cpp" />
+    <ClCompile Include="DlgShuijieyitu3.cpp" />
+    <ClCompile Include="DlgShuijieyitu4.cpp" />
+    <ClCompile Include="DlgShuituliushi1.cpp" />
+    <ClCompile Include="DlgShuituliushi2.cpp" />
+    <ClCompile Include="DlgShuituliushi3.cpp" />
+    <ClCompile Include="DlgShuituliushi4.cpp" />
+    <ClCompile Include="DlgShuizongbiao10.cpp" />
+    <ClCompile Include="DlgShuiZongbiao20.cpp" />
+    <ClCompile Include="DlgShuizongbiao30.cpp" />
+    <ClCompile Include="DlgShuizongbiao40.cpp" />
+    <ClCompile Include="DlgTudiliyong.cpp" />
+    <ClCompile Include="DlgTudiliyong1.cpp" />
+    <ClCompile Include="DlgTudiliyong2.cpp" />
+    <ClCompile Include="DlgTudiliyong3.cpp" />
+    <ClCompile Include="DlgTufenbiao11.cpp" />
+    <ClCompile Include="DlgTufenbiao12.cpp" />
+    <ClCompile Include="DlgTufenbiao13.cpp" />
+    <ClCompile Include="DlgTufenbiao21.cpp" />
+    <ClCompile Include="DlgTufenbiao22.cpp" />
+    <ClCompile Include="DlgTufenbiao23.cpp" />
+    <ClCompile Include="DlgTufenbiao31.cpp" />
+    <ClCompile Include="DlgTufenbiao32.cpp" />
+    <ClCompile Include="DlgTufenbiao41.cpp" />
+    <ClCompile Include="DlgTufenbiao42.cpp" />
+    <ClCompile Include="DlgTufenbiao43.cpp" />
+    <ClCompile Include="DlgTuzongbiao10.cpp" />
+    <ClCompile Include="DlgTuzongbiao20.cpp" />
+    <ClCompile Include="DlgTuzongbiao30.cpp" />
+    <ClCompile Include="DlgTuzongbiao40.cpp" />
+    <ClCompile Include="DlgZhibeifugai1.cpp" />
+    <ClCompile Include="DlgZhibeifugai2.cpp" />
+    <ClCompile Include="DlgZhibeifugai3.cpp" />
+    <ClCompile Include="DlgZhibeifugai4.cpp" />
+    <ClCompile Include="DlgZhifenbiao11.cpp" />
+    <ClCompile Include="DlgZhifenbiao12.cpp" />
+    <ClCompile Include="DlgZhifenbiao13.cpp" />
+    <ClCompile Include="DlgZhifenbiao21.cpp" />
+    <ClCompile Include="DlgZhifenbiao22.cpp" />
+    <ClCompile Include="DlgZhifenbiao23.cpp" />
+    <ClCompile Include="DlgZhifenbiao31.cpp" />
+    <ClCompile Include="DlgZhifenbiao32.cpp" />
+    <ClCompile Include="DlgZhifenbiao41.cpp" />
+    <ClCompile Include="DlgZhifenbiao42.cpp" />
+    <ClCompile Include="DlgZhifenbiao43.cpp" />
+    <ClCompile Include="DlgZhijieyitu1.cpp" />
+    <ClCompile Include="DlgZhijieyitu2.cpp" />
+    <ClCompile Include="DlgZhijieyitu3.cpp" />
+    <ClCompile Include="DlgZhijieyitu4.cpp" />
+    <ClCompile Include="DlgZhizongbiao10.cpp" />
+    <ClCompile Include="DlgZhizongbiao20.cpp" />
+    <ClCompile Include="DlgZhizongbiao30.cpp" />
+    <ClCompile Include="DlgZhizongbiao40.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="LoginDlg.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="PictureDlg11.cpp" />
+    <ClCompile Include="PictureDlg21.cpp" />
+    <ClCompile Include="PictureDlg31.cpp" />
+    <ClCompile Include="PictureDlg41.cpp" />
+    <ClCompile Include="SelectView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TabSheet.cpp" />
+    <ClCompile Include="UserDlg.cpp" />
+    <ClCompile Include="安徽省水土流失项目数据显示平台.cpp" />
+    <ClCompile Include="安徽省水土流失项目数据显示平台Doc.cpp" />
+    <ClCompile Include="安徽省水土流失项目数据显示平台View.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="安徽省水土流失项目数据显示平台.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\1.ico" />
+    <Image Include="res\2.ico" />
+    <Image Include="res\3.ico" />
+    <Image Include="res\4.ico" />
+    <Image Include="res\5.ico" />
+    <Image Include="res\6.ico" />
+    <Image Include="res\7.ico" />
+    <Image Include="res\8.ico" />
+    <Image Include="res\安徽省水土流失项目数据显示平台.ico" />
+    <Image Include="res\安徽省水土流失项目数据显示平台Doc.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="安徽省水土流失项目数据显示平台.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
